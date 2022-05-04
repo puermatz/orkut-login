@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+.wrapp{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4a5c8;
+}
+
+.main-content{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo{
+    margin: 0 auto;
+    color:#ec1b90;
+    font-weight: 700;
+    font-size: 60px;
+    height: 10%;
+    
+}
+.logo img {
+    height: 56px;
+}
+
+.theform{
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   width: 80%;
+}
+
+.theform input{
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid rgba(65, 53, 53, 0.3);
+    padding-left: 10px;
+}
+
+.theform button{
+    background-color: #ff1f94;
+    border:none;
+    height: 48px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+span{
+    margin:20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+.downletters{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downletters button{
+    height: 3rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.downletters button {
+    font-weight: 700;
+}
+
+.downletters button img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.downletters p {
+    margin-top: 10px;
+    color: #565353;
+}
+
